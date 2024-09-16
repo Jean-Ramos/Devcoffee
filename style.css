@@ -7,7 +7,6 @@
 }
 
 html{
-    
     scroll-behavior: smooth;
 }
 
@@ -118,10 +117,6 @@ header.rolar a{
     color: #898080;
 }
 
-header.rolar i{
-    color: #898080;
-    font-size: 32px;
-}
 
 header .nome-site{
     display: flex;
