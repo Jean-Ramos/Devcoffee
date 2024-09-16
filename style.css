@@ -11,6 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
+
 body{
     background-color: #180303;
     color: #fff;
@@ -107,6 +108,7 @@ header{
 }
 
 header.rolar{
+    margin:0 auto;
     z-index: 9;
     background-color: #290000;
     padding: 10px 2%;
@@ -121,22 +123,24 @@ header.rolar i{
     font-size: 32px;
 }
 
-header .coffee{
-    text-decoration: none;
+header .nome-site{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: .2s;
 }
 
-header i{
+header .nome-site:hover{
+    transform: scale(1.05);
+}
+
+header .coffee{
     color: #898080;
     text-decoration: none;
     font-size: 32px;
     transition: .5s;
-
 }
 
-header i:hover{
-    color: #fff;
-    transform: scale(1.05);
-}
 
 header .container{
     display: flex;
@@ -146,7 +150,7 @@ header .container{
 
 header nav.menu-desktop ul li{
     display: inline-block;
-    margin: 0 50px;
+    margin: 0 30px;
 }
 
 header nav ul{
@@ -164,6 +168,27 @@ header nav.menu-desktop a{
 header nav.menu-desktop a:hover{
     transform: scale(1.05);
     color: #fff;
+}
+
+.btn-contato a button{
+    padding: 10px 15px;
+    border: none;
+    color: #ffffff;
+    background-color: #180303;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: .2s;
+}
+
+.btn-contato a button:hover{
+    transform: scale(1.07);
+    box-shadow: 0px 0px 8px 8px #180303a4;
+
+}
+
+.btn-contato a button i{
+    font-size: 18px;
 }
 
 /* CSS do inicio */
